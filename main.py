@@ -102,7 +102,7 @@ class SnakeGame:
         return imgMain
 
 
-game = SnakeGame("Aqua.png")
+game = SnakeGame("cloud.png")
 
 while True:
     success, img = cap.read()
