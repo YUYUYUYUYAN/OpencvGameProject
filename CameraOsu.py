@@ -7,6 +7,8 @@ import time
 
 from circleBase import Item
 
+#   游戏主程序
+
 pygame.init()
 
 # create window
