@@ -4,7 +4,7 @@ import pygame
 
 
 class Circle:    # 暂时没用上
-    def __init__(self, posX, posY, surface, r=30, color=(0, 255, 0)):
+    def __init__(self, posX, posY, surface, r=30, color=(255, 0, 255)):
         self.r = r
         self.color = color
         self.posX = posX
@@ -16,7 +16,7 @@ class Circle:    # 暂时没用上
 
 
 class Ring:     # 暂时没用上
-    def __init__(self, posX, posY, surface, r=90, color=(0, 255, 0)):
+    def __init__(self, posX, posY, surface, r=90, color=(208, 32, 144)):
         self.r = r
         self.color = color
         self.posX = posX
